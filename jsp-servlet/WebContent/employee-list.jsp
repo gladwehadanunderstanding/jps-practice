@@ -9,8 +9,8 @@
  <center>
   <h1>EMPLOYEE Management</h1>
    <b>
-         <a href="new">Add New User</a>
-         <a href="list">List All Users</a>
+         <a href="new">Add New employee</a>
+         <a href="list">List All employee</a>
          </b>
  </center>
     <div align="center">
