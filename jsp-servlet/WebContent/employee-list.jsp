@@ -15,7 +15,7 @@
  </center>
     <div align="center">
         <table border="1" cellpadding="1">
-            <caption><h2>List of Users</h2></caption>
+            <caption><h2>List of Employees</h2></caption>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
