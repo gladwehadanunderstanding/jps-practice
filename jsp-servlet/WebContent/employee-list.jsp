@@ -7,15 +7,14 @@
 </head>
 <body>
  <center>
-  <h1>User Management</h1>
-        <h2>
+  <h1>EMPLOYEE Management</h1>
+   <b>
          <a href="new">Add New User</a>
          <a href="list">List All Users</a>
-         
-        </h2>
+         </b>
  </center>
     <div align="center">
-        <table border="1" cellpadding="5">
+        <table border="1" cellpadding="1">
             <caption><h2>List of Users</h2></caption>
             <tr>
                 <th>ID</th>

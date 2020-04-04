@@ -3,16 +3,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
- <title>User Management Application</title>
+ <title>Employee Management Application</title>
 </head>
 <body>
  <center>
   <h1>User Management</h1>
-        <h2>
+        <b>
          <a href="new">Add New User</a>
          <a href="list">List All Users</a>
-         
-        </h2>
+         </b>
  </center>
     <div align="center">
   <c:if test="${employee != null}">
@@ -21,7 +20,7 @@
         <c:if test="${employee == null}">
    <form action="insert" method="post">
         </c:if>
-        <table border="1" cellpadding="5">
+        <table border="1" cellpadding="1">
             <caption>
              <h2>
 `

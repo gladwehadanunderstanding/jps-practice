@@ -21,7 +21,7 @@ public class HibarnateUtil {
 
     Properties settings = new Properties();
     settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-    settings.put(Environment.URL, "jdbc:mysql://localhost:3306/jsp_demo?useSSL=false&serverTimezone=UTC");
+    settings.put(Environment.URL, "jdbc:mysql://localhost:3306/jsp_demo?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC");
     settings.put(Environment.USER, "hbstudent");
     settings.put(Environment.PASS, "hbstudent");
     settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
